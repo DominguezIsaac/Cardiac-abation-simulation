@@ -1,1 +1,3 @@
-# kj
+En este repositorio se encuentran un comnjunto de codigos que simulan una operación llamada ablación cardíaca, que consiste en calentar la zona dañada con electrodos a una temperatura entre 50 y 80 grados, pero sin afectar el tejido sano. 
+Para modelar un sistema de estas caracteristicas se utiliza la Ley de Fourier y se resuelve numericamente usando el metodo de Euler explícito y el metodo de Euler implicito con Gaus-Seidel. Finalmente tambien se resuelve usando el metodo de Crank-nicolson. 
+En el repositorio se pueden encontrar los codigos de C que resuelven numericamente las ecuaciones así como un codigo que calcula el tiempo necesario para calentar el tejido dañado sin afectar al sano. Ademas se puede encontrar los plots y el calculo de errores en codigos de Python. 
